@@ -1,18 +1,57 @@
-*.iml
+# Compiled class files
+*.class
+
+# Built application files
+*.apk
+*.ap_
+
+# Gradle files
 .gradle
 /local.properties
 /.idea/caches
 /.idea/libraries
-/.idea/modules.xml
+/.idea/modules
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
 .DS_Store
 /build
 /captures
+
+# C++ files
 .externalNativeBuild
 .cxx
+
+# Debug and release keystores
+*.jks
+
+# Android Studio specific
+/app/build
+/app/src/test/java
+/app/src/androidTest/java
+
+#Generated files
+/app/build/generated
+
+# Ignore *.iml files
+*.iml
+
+# Ignore local.properties file (which contains your SDK path)
 local.properties
 
-# idea files
-.idea
+# Ignore build output directories
+*/build/
+
+# Ignore test results
+/app/build/reports/
+/app/build/test-results/
+
+# Ignore coverage data
+/app/build/jacoco/
+
+# Ignore other files
+*.log
+*.lock
+
+# Ignore IDE specific data
+.idea/
