@@ -1,5 +1,3 @@
-// File: app/src/main/java/com/em/shoppinglist/viewmodel/ShoppingListViewModel.kt
-
 package com.em.shoppinglist.viewmodel
 
 import android.content.Context
